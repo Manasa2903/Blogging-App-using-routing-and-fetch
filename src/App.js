@@ -1,4 +1,4 @@
-import {BrowserRouter, Route, Switch} from 'react-router-dom'
+import {Route, Switch} from 'react-router-dom'
 
 import Header from './components/Header'
 import About from './components/About'
@@ -10,7 +10,6 @@ import BlogItemDetails from './components/BlogItemDetails'
 import './App.css'
 
 const App = () => (
-  <BrowserRouter>
     <div className="app-container">
       <div className="responsive-container">
         <Header />
@@ -25,7 +24,6 @@ const App = () => (
         </div>
       </div>
     </div>
-  </BrowserRouter>
 )
 
 export default App
